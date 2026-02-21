@@ -1,0 +1,38 @@
+.contact {
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+.section-number {
+  color: var(--primary);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  color: var(--text);
+  line-height: 1.7;
+}
+
+.email-btn {
+  display: inline-block;
+  padding: 14px 32px;
+  border: 1px solid var(--primary);
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.email-btn:hover {
+  background: var(--primary);
+  color: white;
+}

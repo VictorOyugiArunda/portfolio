@@ -1,0 +1,7 @@
+<section id="projects" class="container">
+  <h3><span>02.</span> Projects</h3>
+
+  @for (project of projects; track project.title) {
+    <app-project-card [project]="project" />
+  }
+</section>
